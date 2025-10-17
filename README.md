@@ -1,6 +1,6 @@
 # Weather-API
 A Command Line Interface program that displays weather data gathered from VisualCrossing API  
-Data is stored via Redis caching and a JSON file 
+Data is stored via Redis caching and a JSON file  
 Idea taken from suggested projects by roadmap.sh  
 Source: https://roadmap.sh/projects/weather-api-wrapper-service  
 

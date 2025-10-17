@@ -106,7 +106,7 @@ def get_range(location: str):
 
 #If we recieve a GET request, display today data from Redis
 @app.get("/weather/today")
-async def display_weather():
+async def display_today():
   weather = red.get("today")
   if not weather:
     return {"today": "Information unavailable at this time"}
@@ -115,7 +115,7 @@ async def display_weather():
 
 #If we recieve a GET request, display range data from Redis
 @app.get("/weather/range")
-async def display_weather():
+async def display_range():
   weather = red.get("range")
   if not weather:
     return {"range": "Information unavailable at this time"}

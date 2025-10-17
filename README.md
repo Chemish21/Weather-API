@@ -1,2 +1,3 @@
 # Weather-API
-A Command Line Interface program that displays weather data gathered from VisualCrossing API
+A Command Line Interface program that displays weather data gathered from VisualCrossing API  
+**Visual Crossing**: https://www.visualcrossing.com  

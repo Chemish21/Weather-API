@@ -69,13 +69,13 @@ def get_range(location: str):
   range_days = []
 
   #Informing user and getting start/end dates
-  print("Format: YYYY-MM-DD")
-  print("------------------")
+  print("Format: YYYY-MM-DD Limit: 31 days")
+  print("---------------------------------")
   start_date = input("Enter starting date: ")
   end_date = input("Enter ending date: ")
   print()
 
-  #Total days betwen start/end dates
+  #Setting total days betwen start/end dates
   total_days = get_total_days(start_date, end_date)
 
   #Total days not to exceed limit

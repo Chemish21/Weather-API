@@ -4,7 +4,7 @@ Data is stored via Redis caching and a JSON file
 Idea taken from suggested projects by roadmap.sh  
 Source: https://roadmap.sh/projects/weather-api-wrapper-service  
 
-**Usage**: python3 weath.py [command]
+**Usage**: python3 weath.py [command]  
 User must provide their own API key and store in a .env file  
 Key can be obtained after creating an account with VisualCrossing  
 Site: https://www.visualcrossing.com/  
